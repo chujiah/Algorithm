@@ -7,6 +7,6 @@ class Solution {
             total2 += num;
         }
         
-        return total1 < total2*total2 ? 1:0;
+        return total1 < Math.pow(total2,2) ? 1:0;
     }
 }
